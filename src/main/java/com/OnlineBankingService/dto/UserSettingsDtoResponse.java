@@ -13,12 +13,9 @@ import java.util.UUID;
 @Builder
 public class UserSettingsDtoResponse {
 
-    @NotNull
     private UUID userId;
 
-    @NotNull
     private Theme theme;
 
-    @NotEmpty
     private List<UUID> hiddenAccountIds;
 }

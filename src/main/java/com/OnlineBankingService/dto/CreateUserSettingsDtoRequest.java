@@ -12,13 +12,10 @@ import java.util.UUID;
 @Data
 public class CreateUserSettingsDtoRequest {
 
-    @NotNull
     private UUID userId;
 
-    @NotNull
     @Schema(example = "LIGHT/DARK")
     private Theme theme;
 
-    @NotEmpty
     private List<UUID> hiddenAccountIds;
 }

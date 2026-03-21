@@ -9,6 +9,5 @@ import java.util.UUID;
 @Data
 public class DeleteUserSettingsHiddenAccountDtoRequest {
 
-    @NotEmpty
     private List<UUID> accountIds;
 }

@@ -9,6 +9,5 @@ import java.util.UUID;
 @Data
 public class UpdateUserSettingsHiddenAccountDtoRequest {
 
-    @NotNull
     private List<UUID> hiddenAccountIds;
 }

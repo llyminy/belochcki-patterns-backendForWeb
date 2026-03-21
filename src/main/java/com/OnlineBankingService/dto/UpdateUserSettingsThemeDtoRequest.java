@@ -7,7 +7,6 @@ import lombok.Data;
 
 @Data
 public class UpdateUserSettingsThemeDtoRequest {
-    @NotNull
     @Schema(example = "LIGHT/DARK")
     private Theme theme;
 }
